@@ -1,4 +1,4 @@
-dofile_once("mods/noita-mod-template/files/scripts/lib/noita-den-utils/utilities.lua")
+dofile_once("mods/noita-mod-template/files/scripts/lib/utilities.lua")
 
 print("noita-mod-template load")
 
@@ -31,7 +31,6 @@ function OnWorldPostUpdate() -- This is called every time the game has finished 
 end
 
 function OnMagicNumbersAndWorldSeedInitialized() -- this is the last point where the Mod* API is available. after this materials.xml will be loaded.
-	local x = ProceduralRandom(0,0)
 	print( "===================================== random " .. tostring(x) )
 end
 
