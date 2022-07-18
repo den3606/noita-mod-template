@@ -1,0 +1,3 @@
+[submodule "files/scripts/lib/luanxml"]
+	path = files/scripts/lib/luanxml
+	url = git@github.com:zatherz/luanxml.git
