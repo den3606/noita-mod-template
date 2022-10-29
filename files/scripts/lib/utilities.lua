@@ -1,8 +1,4 @@
-function p(message)
-  print(tostring(message))
-end
-
-function split(str, sep)
+function Split(str, sep)
   if sep == nil then
     return {}
   end
