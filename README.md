@@ -5,4 +5,5 @@ NoitaMOD制作用のテンプレートリポジトリです。
 
 ## LICENSE
 
-[LICENSE.md](/LICENSE.md)
+- [Noita MOD Rules](docs/NOITA_MOD_RULES.md)
+- [This Project License](docs/LICENSE.md)
