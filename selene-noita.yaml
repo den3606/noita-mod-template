@@ -417,6 +417,8 @@ globals:
         required: true
       - type: string
         required: true
+      - type: any
+        required: true
   ComponentObjectGetValue2:
     args:
       - type: number
@@ -433,6 +435,8 @@ globals:
       - type: string
         required: true
       - type: string
+        required: true
+      - type: any
         required: true
   EntityAddComponent2:
     args:
